@@ -51,8 +51,6 @@ function deleteUser(e) {
         userName.innerText = ''
         divCont.removeChild(delBtn);
         divCont.removeChild(editBtn);
-        formChildren[0].value = '';
-        formChildren[2].value = '';
     }
 }
 
@@ -82,13 +80,13 @@ function submitForm(e) {
     // formChildren[0].value = '';
     // formChildren[2].value = ''; 
 
-    if (formChildren[0].value === '') {
+    if (formChildren[0].value.length <= 0) {
         alert('firstName empty');
     } else {
         formChildren[0].value = '';
     }
 
-    if (formChildren[2].value === '') {
+    if (formChildren[2].value.length <= 0) {
         alert('lastName empty');
     } else {
         formChildren[2].value = '';
