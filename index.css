@@ -1,0 +1,51 @@
+.cont {
+    margin: 60px auto;
+    width: 500px;
+}
+
+input[type=submit] {
+    width: 120px;
+    margin-top: 5px;
+    padding: 4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input[type=text] {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* For the name, edit and delete button container  */
+.nameCont {
+    /* outline: 1px solid; */
+    width: 200px;
+    margin: auto;
+    
+}
+
+ .edit {
+    color: blue;
+    /* margin-left: 0px; */
+}
+
+ .delete {
+        color: red;
+    margin-left: 55px;
+ }
+
+
+#nameCont {
+    text-align: center;
+}
